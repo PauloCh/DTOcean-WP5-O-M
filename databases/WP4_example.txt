@@ -1,0 +1,8 @@
+###### Subsystem category ######
+pile foundation system comprising 4 foundation units.
+###### Subsystem bill of materials ######
+{'device001': {'Foundation': {'foundation type': 'pile', 'grout volume [m^3]': 500, 'dimensions [m,m,m]': [6, 10, 0.095], 'total cost [euros]': 653899.009312821, 'total weight [kg]': 5446330.031042736, 'grout type': 'ultra high strength', 'quantity': 4}, 'Umbilical': {'diameter [m]': 0.079, 'total weight [kg]': 780, 'umbilical type': 'submarine umbilical cable 6/10kV', 'cost [euros]': 16250, 'length [m]': 65}}, 'array': {'Substation foundation': {'grout volume [m^3]': 500, 'dimensions [m,m,m]': [6, 30, 0.095], 'cost [euros]': 614197.0279384628, 'substation foundation type': 'pin pile', 'total weight [kg]': 2863990.093128209, 'grout type': 'ultra high strength', 'quantity': 4}}}
+###### Subsystem hierarchy ######
+{'device001': {'Foundation': ['pile', 'ultra high strength'], 'Umbilical': ['submarine umbilical cable 6/10kV']}, 'array': {'Substation foundation': ['pin pile', 'ultra high strength']}}
+###### Foundation installation requirements ######
+{'installation depth [m]': 10, 'foundation type': 'pile', 'maximum lowering rate [m/s]': 0.1, 'foundation installation energy [J]': 4203000.0, 'anchor test load [N]': 'n/a', 'foundation installation load [N]': 'n/a', 'required installation time [hours]': 10.0}
